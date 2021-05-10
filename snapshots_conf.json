@@ -1,0 +1,11 @@
+{
+  "repository": "elastic_v6_wazuh_backup",
+  "repository_type": "local",
+  "bucket": false,
+  "region": false,
+  "base_path": false,
+  "es_config_path": "../.es-auth.json",
+  "snapshots": [
+    "wazuh-alerts-3.x"
+  ]
+}
